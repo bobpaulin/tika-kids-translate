@@ -5,6 +5,7 @@
  */
 package com.bobpaulin.tika.kids.translate;
 
+import com.memetix.mst.language.Language;
 import org.apache.tika.Tika;
 
 
@@ -30,7 +31,7 @@ public class Translator {
     
     public static void main(String[] args) {
         Translator translator = new Translator();
-        System.out.println(translator.translate("Good Morning", Language.GERMAN));
+        System.out.println(translator.translate("Good Morning", Language.GERMAN.toString()));
     }
     
 }
