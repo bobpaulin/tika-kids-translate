@@ -4,8 +4,8 @@
 
 In order to build this project for use in Alice you'll need to do 2 things
 
-#.  Edit the src/main/resources/org/apache/tika/language/translate/translator.microsoft.properties to add your Translate API client id and client secret.
-#.  Build the jar using the maven command
+1.  Edit the src/main/resources/org/apache/tika/language/translate/translator.microsoft.properties to add your Translate API client id and client secret.
+2.  Build the jar using the maven command
 ```
 clean install shade:shade
 ```
